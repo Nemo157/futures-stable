@@ -8,13 +8,13 @@ git = "https://github.com/withoutboats/anchor_experiment"
 default-features = false
 
 [dependencies.futures-core]
-git = "https://github.com/rust-lang-nursery/futures-rs"
-branch = "0.2"
+git = "https://github.com/Nemo157/futures-rs"
+branch = "target_has_atomic"
 default-features = false
 
 [dependencies.futures-executor]
-git = "https://github.com/rust-lang-nursery/futures-rs"
-branch = "0.2"
+git = "https://github.com/Nemo157/futures-rs"
+branch = "target_has_atomic"
 default-features = false
 
 [features]
